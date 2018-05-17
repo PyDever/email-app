@@ -1,0 +1,8 @@
+flask
+werkzeug
+jinja2
+tinydb
+requests
+flask_bootstrap
+flask_common
+flask_sqlite3
