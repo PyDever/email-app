@@ -51,11 +51,8 @@ app.get ('/', function (req, res) {
             res.render('home', {gifs: parsed.data})
          })
     })
-})
-
-// awesome. lets run our server
-// by listening in on port 3000
-app.listen(3000,function(){
+    // awesome. lets run our server by listening in on port 3000
+}) app.listen(3000,function(){
   console.log("magic happens on port 3000...");
 });
 
