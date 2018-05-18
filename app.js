@@ -21,6 +21,11 @@ app.get ('/', function (req, res) {
     var queryString = req.query.term;
     var term = encodeURIComponent(queryString);
 
+    const remoteAddress = req.connection.remoteAddress;
+
+    // console log that our server got a request...
+    console.log(`[GET] Request from ${remoteAddress}`)
+
     // Jay: Could not get an API key. I found where someone made this
     // and stole their API key. ;) 
     var url = 'http://api.giphy.com/v1/gifs/search?q=' + term + '&api_key=dc6zaTOxFJmzC';
