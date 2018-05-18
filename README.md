@@ -1,2 +1,1 @@
-# reddit-clone
-simple reddit clone in Flask. 
+simple github OAuth in Python 3. 
