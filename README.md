@@ -1,1 +1,1 @@
-simple github OAuth in Python 3. 
+simple email OAuth in Python 3. 
