@@ -1,11 +1,15 @@
 
+// import express and the templating engine
 const express = require('express');
 const exphbs = require('express-handlebars');
 
+// import the http request library 
 const http = require('http');
 
+// create a new instance of an application server
 const app = express();
 
+// configure all the templating and public styles
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static('public'));
