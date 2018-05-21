@@ -14,7 +14,7 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 
-app.get ('/', function (req, res) {
+app.get ('/home', function (req, res) {
 
     var queryString = req.query.term;
     var term = encodeURIComponent(queryString);
@@ -39,6 +39,10 @@ app.get ('/', function (req, res) {
          })
     })
 }) 
+
+app.get('/', function (req, res) {
+    return res.redirect('/home')
+})
 
 app.listen(3000,function(){
   console.log("magic happens on port 3000...");
