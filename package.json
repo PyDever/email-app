@@ -1,5 +1,4 @@
 
-
 {
   "name": "gif-search",
   "version": "1.0.0",
@@ -7,14 +6,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Kaleb R. Horvath",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.4",
-    "express-handlebars": "^3.0.0",
-    "nodemon": "^1.0.0"
+    "express-handlebars": "^3.0.0"
   }
 }
 
