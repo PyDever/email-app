@@ -46,7 +46,7 @@ app.get ('/', function (req, res) {
 }) 
 
 // listen in on port 3000 for incoming requests
-app.listen(3000,function(){
+app.listen(3000, function() {
 
     // alert the client that magic happens on port 3000
     console.log("magic happens on port 3000...")
