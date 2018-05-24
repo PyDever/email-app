@@ -1,13 +1,18 @@
-<h1>find your GIF!</h1>
-<center><form action="/">
-  <input type="text" name="term">
-  <button type="submit">search!</button>
-</form></center>
 
-<center>
-{{#each gifs}}
-  <br>
-  <img src="{{this.images.fixed_height.url}}">
-{{/each}}
-</center>
+<div class="all">
+  <h2>Search the Dank Bank!</h2>
+  <center><form action="/">
+    <input type="text" name="term">
+    <button type="submit">search!</button>
+  </form></center>
+  <center>
+  {{#each gifs}}
+    <br>
+    <img src="{{this.images.fixed_height.url}}">
+  {{/each}}
+  </center>
+</div>
+
+
+
 

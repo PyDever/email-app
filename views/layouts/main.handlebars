@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+ <div class="topnav" id="myTopnav">
+  <a href="/" class="active">Home</a>
+  <a href="/news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Hot 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/?term=dank">the dank</a>
+      <a href="/?term=yeet">yeet it</a>
+      <a href="/?term=kek">top kek</a>
+    </div>
+  </div>
+  <a href="/about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div> 
     <div class="container">
       {{{body}}}
     </div>
