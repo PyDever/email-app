@@ -7,6 +7,12 @@ h1 {
   text-align: center;
 }
 
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+
 input {
   padding: .5em .6em;
   display: inline-block;
