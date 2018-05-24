@@ -16,9 +16,11 @@ app.set('view engine', 'handlebars')
 // make express use the public folder 
 app.use(express.static('public'))
 
+
 app.get ('/news', function (req, res) {
     res.render('news')
 })
+
 
 app.get ('/about', function (req, res) {
     res.render('about')
