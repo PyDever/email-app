@@ -1,0 +1,12 @@
+root:
+  main:
+    get:
+      - "standard",
+      - "http",
+      - "3000"
+    post:
+     - "any"
+  secondary:
+    none: true
+    
+ 
